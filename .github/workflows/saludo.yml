@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 jobs:
-  saludar
+  saludar:
   runs-on: ubuntu-latest
   steps:
     name: hola
