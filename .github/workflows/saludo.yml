@@ -1,0 +1,26 @@
+name: Mi primer workflow
+
+on:
+push:
+  branches:
+    -main
+  worflow_dispatch:
+
+permissions: 
+  contents: write
+
+jobs:
+  saludar
+  runs-on: ubuntu-latest
+  steps:
+    name: hola
+    run: echo "Hola, soy Ruben"
+
+    name: fecha
+    run: echo $date
+
+    name: contenido
+    run: echo ls
+    
+    
+    
