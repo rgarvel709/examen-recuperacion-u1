@@ -17,4 +17,4 @@ jobs:
         run: echo $date 
         
       - name: cont
-        run: echo ls README
+        run: echo examen-recuperacion-u1 ls 
