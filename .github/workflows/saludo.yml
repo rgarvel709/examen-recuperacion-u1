@@ -14,7 +14,7 @@ jobs:
         run: echo "Hola, soy Ruben"    
 
       - name: fecha
-        run: echo $(date +"Hora:Minutos:Segundos Dia/Mes/Año") 
+        run: echo $(date) 
         
       - name: cont
         run:  ls 
