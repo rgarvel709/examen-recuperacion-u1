@@ -2,7 +2,7 @@ name: Mi primer workflow
 on:                        
   push:                    
     branches:
-      - main               
+      - saludo               
   workflow_dispatch:   
   
 jobs:                      
