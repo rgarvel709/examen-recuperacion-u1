@@ -14,3 +14,25 @@ Mi workflow lo que hace es mostrar primero un mensaje de saludo con mi nombre, l
 -CI: Se encarga de la revision del codigo que se va añadiendo a un repositorio compartido el CI comprueba dicho codigo y detecta errores en caso de no haber ninguno sube el codigo.
 
 -CD: Es software preparado para el despliegue siempre que el equipo vea que pueda ponerse en produccion, para que el usuario lo reciba de manera rapida y sin grandes cambios 
+
+
+
+
+Parte 3 — Pregunta de reflexión (20 puntos)
+Añade al final del README.md una sección llamada ## Reflexión y responde:
+Imagina que tienes una página web y quieres que cada vez que hagas un
+cambio en el código, se despliegue automáticamente. ¿Qué tendrías que
+añadir al workflow para conseguirlo? No hace falta que escribas código, sólo
+explica la idea en 3-5 líneas.
+
+##Reflexión
+peaceiris/actions-gh-pages con este comando podremos desplegar de manera automatica cada vez que hagamos un push 
+
+
+
+
+
+
+
+
+
